@@ -1,28 +1,22 @@
-#include"Interface.h"
+﻿#include"Interface.h"
 #include<iostream>
 #include<vector>
 #include<string>
+#include<conio.h>  
 
 using namespace std;
 
 void clearScreen() {
-#ifdef _WIN32
-	system("cls");
-#else
-	system("clear");
-#endif
+	system("cls");  
 }
 
 void showNotification() {
-	string tmp;
-	cout << "\t\tEnter any command to exit: ";
-	cin >> tmp;
+	cout << "\t\tPress any key to exit: ";
+	_getch();
 }
-
 void showNotificationContinue() {
-	string tmp;
-	cout << "\t\tEnter any command to continue: ";
-	cin >> tmp;
+	cout << "\t\tPress any key to continue: ";
+	_getch();  
 }
 
 void UI_DeleteUser(UserManager& userm) {
@@ -218,4 +212,3 @@ void isMember(UserManager& userm) {
 		break;
 	}
 }
-
