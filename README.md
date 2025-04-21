@@ -7,11 +7,8 @@ A simple C++ console-based User Management System with login, register, search, 
 -  Register new users
 -  Login as user or master
 -  Search for users by username
--  Master account can:
-  + View user list
-  + Delete users
--  Regular users can only:
-  + Search for other users
+-  Master account can: View user list, Delete users
+-  Regular users can only: Search for other users
 
 ##  Roles
 
