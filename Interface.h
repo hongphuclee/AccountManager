@@ -6,7 +6,6 @@
 #include<unordered_set>
 #include<string>
 
-using namespace std;
 
 void clearScreen();
 void showNotification();
@@ -25,4 +24,3 @@ void isMember(UserManager& userm);
 
 
 
-#pragma once

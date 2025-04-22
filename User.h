@@ -17,4 +17,3 @@ public:
 	friend void standardizeName(User& u);
 };
 
-#pragma once
